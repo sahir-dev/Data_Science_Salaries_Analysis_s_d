@@ -2,8 +2,6 @@
 
 Exploratory data analysis and machine learning project analyzing salary trends in the data science job market using 607 job records from 2020-2022.
 
-![Dashboard](visualizations/12_dashboard.png)
-
 ## Project Overview
 
 This project analyzes data science job salaries to uncover trends, identify key salary drivers, and build predictive models. The analysis covers salary distributions across experience levels, work types, company sizes, and geographic locations.
@@ -86,37 +84,6 @@ Two models were trained for salary prediction:
 2. Job Title
 3. Experience Level
 
-## Visualizations
-
-### Salary Distribution
-![Salary Distribution](visualizations/01_salary_distribution.png)
-
-### Salary by Experience Level
-![Experience](visualizations/02_salary_by_experience.png)
-
-### Salary by Work Type
-![Work Type](visualizations/03_salary_by_worktype.png)
-
-### Yearly Trends
-![Trends](visualizations/06_yearly_trends.png)
-
-## Installation & Usage
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/data-science-salaries-analysis.git
-cd data-science-salaries-analysis
-```
-
-2. Install dependencies
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-3. Run the notebook
-```bash
-jupyter notebook DS_Salaries_Analysis.ipynb
-```
 
 Running all cells will automatically:
 - Create `visualizations/` and `cleaned_data/` folders
@@ -133,11 +100,3 @@ Running all cells will automatically:
 - Seaborn
 - Scikit-learn
 
-## License
-
-This project is open source and available under the MIT License.
-
-## Acknowledgments
-
-- Dataset source: [ai-jobs.net](https://ai-jobs.net/)
-- Project completed as part of data science internship
